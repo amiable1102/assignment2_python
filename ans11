@@ -1,0 +1,14 @@
+With filter
+
+seq = [1,2,3,4,5,6,7,8]
+result = filter(lambda x:x%2 != 0, seq)
+print(list(result))
+
+
+
+
+With list comprehensions
+
+seq = [1,2,3,4,5,6,7,8]
+odd_no = [num for num in seq if num%2!=0]
+print(odd_no)
